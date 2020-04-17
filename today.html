@@ -1,7 +1,19 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <body>
-            ini adalah aplikasi electron saya yang pertama
-        </body>
-    </head>
-</html>
+<head>
+     <title>Konversi Suhu</title>
+     <script type="text/javascript" src="latjs1.js"></script>
+</head>
+<body>
+     <form name="temperatur">
+           <label>Temperatur</label>
+           <input type="text" id="temp"/><br/>
+           <input type="radio" name="pilihan" value="fahrenheit">Convert to Fahrenheit<br/>
+           <input type="radio" name="pilihan" value="celcius">Convert to Celcius<br/>   
+		   <input type="radio" name="pilihan" value="reamur">Convert to Reamur<br/> 
+           <label>Result: </label>
+           <input type="text" id="resultfield"/><br/>
+           <input type="button" value="Convert" onclick="convertSuhu()"/>
+</form>
+</body>
+</html></script>
